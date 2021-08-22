@@ -14,6 +14,25 @@ namespace TDE_AULA3_EXERC_2
 
     public string resposta() => Console.ReadLine();
 
+    int tamanhoLista()
+    {
+      int tamanho;
+      return tamanho = listaDeContatos.Count;
+    }
+
+    int qtdContatosAtivos()
+    {
+      int total = 0;
+      foreach (Contato contato in listaDeContatos)
+      {
+        if (contato.getAtivo().Equals(true))
+        {
+          total = total + 1;
+        }
+      }
+      return total;
+    }
+
     void addContato()
     {
       string id = (listaDeContatos.Count + 1).ToString();
@@ -21,81 +40,144 @@ namespace TDE_AULA3_EXERC_2
       string nome = resposta();
       escrever("Digite o número do contato: ");
       string numero = resposta();
+      bool ativado = true;
 
-      Contato novoContato = new Contato(id, nome, numero);
+      Contato novoContato = new Contato(id, nome, numero, ativado);
       listaDeContatos.Add(novoContato);
+      escrever("O contato foi cadastrado com sucesso!");
     }
 
     void editarContato()
     {
-      escrever("Digite o id do usuário a ser editado");
-      listarContatos();
-      string contatoEditado = resposta();
-      foreach (Contato contato in listaDeContatos)
+      if (tamanhoLista().Equals(0))
       {
-        if (contato.id == contatoEditado)
+        escrever("Lista vazia, para poder editar é necessário possuir contatos cadastrados!");
+        escrever("Digite a opção 1 para começar a cadastrar seus contatos.");
+      }
+      else
+      {
+        escrever("Digite o id do usuário a ser editado");
+        listarContatosAtivos();
+        string contatoEditado = resposta();
+
+        foreach (Contato contato in listaDeContatos)
         {
-          escrever("Digite 1 para editar somente o nome");
-          escrever("Digite 2 para editar somente o número");
-          escrever("Digite 3 para editar o nome e o número");
-          string oper = resposta();
-          if (oper == "1")
+          if (contato.id.Equals(contatoEditado))
           {
-            escrever("Digite o novo nome");
-            string novoNome = resposta();
-            contato.setNome(novoNome);
-            escrever("O nome foi editado com sucesso!");
+            escrever("Digite 1 para editar somente o nome");
+            escrever("Digite 2 para editar somente o número");
+            escrever("Digite 3 para editar o nome e o número");
+            string oper = resposta();
+            if (oper == "1")
+            {
+              escrever("Digite o novo nome");
+              string novoNome = resposta();
+              contato.setNome(novoNome);
+              escrever("O nome do contato foi editado com sucesso!");
+              return;
+            }
+            else if (oper == "2")
+            {
+              escrever("Digite o novo número");
+              string novoNumero = resposta();
+              contato.setNumero(novoNumero);
+              escrever("O número do contato foi editado com sucesso!");
+              return;
+            }
+            else if (oper == "3")
+            {
+              escrever("Digite o novo nome");
+              string novoNome = resposta();
+              contato.setNome(novoNome);
+              escrever("Agora digite o novo número");
+              string novoNumero = resposta();
+              contato.setNumero(novoNumero);
+              escrever("O nome e o número do contato foram editados com sucesso!");
+              return;
+            }
+            else
+            {
+              escrever("Operação inválida");
+              return;
+            }
+          }
+        }
+        escrever("Contato não encontrado, verifique corretamente o id dos contatos contidos na agenda!");
+      }
+    }
+
+    void desativarContato()
+    {
+      if (tamanhoLista().Equals(0))
+      {
+        escrever("Lista vazia, para poder desativar é necessário possuir contatos cadastrados!");
+        escrever("Digite a opção 1 para começar a cadastrar seus contatos.");
+      }
+      else
+      {
+        escrever("Digite o id do usuário a ser desativado");
+        listarContatosAtivos();
+        string contatoDesativado = resposta();
+
+        foreach (Contato contato in listaDeContatos)
+        {
+          if (contato.id.Equals(contatoDesativado))
+          {
+            contato.setAtivo(false);
+            escrever("Usuário desativado com sucesso!");
             return;
           }
-          else if (oper == "2")
+        }
+        escrever("Contato não encontrado, verifique corretamente o id dos contatos contidos na agenda!");
+      }
+    }
+
+    void listarContatosAtivos()
+    {
+      if (tamanhoLista().Equals(0))
+      {
+        escrever("Lista vazia!");
+      }
+      else
+      {
+        foreach (Contato contato in listaDeContatos)
+        {
+          if (contato.getAtivo().Equals(true))
           {
-            escrever("Digite o novo número");
-            string novoNumero = resposta();
-            contato.setNumero(novoNumero);
-            escrever("O número foi editado com sucesso!");
-            return;
+            escrever(contato.getDescriptionContatosAtivos());
           }
-          else if (oper == "3")
-          {
-            escrever("Digite o novo nome");
-            string novoNome = resposta();
-            contato.setNome(novoNome);
-            escrever("Agora digite o novo número");
-            string novoNumero = resposta();
-            contato.setNumero(novoNumero);
-            escrever("O nome e o número foram editados com sucesso!");
-            return;
-          }
-          else
-          {
-            escrever("Operação inválida");
-            return;
-          }
+        }
+        if (tamanhoLista() != 1)
+        {
+          escrever("Você possui " + tamanhoLista() + " contatos cadastrados, mas somente " + qtdContatosAtivos() + " estão ativos");
+        }
+        else
+        {
+          escrever("Você possui " + tamanhoLista() + " contato cadastrado!");
         }
       }
     }
 
-    void excluirContato()
+    void listarTodosContatos()
     {
-      escrever("Digite o id do usuário a ser excluído");
-      listarContatos();
-      string contatoExcluido = resposta();
-      foreach (Contato contato in listaDeContatos)
+      if (tamanhoLista().Equals(0))
       {
-        if (contato.id == contatoExcluido)
-        {
-          listaDeContatos.Remove(contato);
-          escrever("Usuário excluído com sucesso!");
-          return;
-        }
+        escrever("Lista vazia!");
       }
-    }
-
-    void listarContatos()
-    {
-      foreach (Contato contato in listaDeContatos)
+      else
       {
-        escrever(contato.getDescription());
+        foreach (Contato contato in listaDeContatos)
+        {
+          escrever(contato.getDescriptionTodosContatos());
+        }
+        if (tamanhoLista() != 1)
+        {
+          escrever("Você possui " + tamanhoLista() + " contatos cadastrados!");
+        }
+        else
+        {
+          escrever("Você possui " + tamanhoLista() + " contato cadastrado!");
+        }
       }
     }
     public void menu()
@@ -106,9 +188,10 @@ namespace TDE_AULA3_EXERC_2
       {
         escrever("Digite 1 para add um contato: ");
         escrever("Digite 2 para editar um contato: ");
-        escrever("Digite 3 para excluir um contato: ");
-        escrever("Digite 4 para listar os contatos: ");
-        escrever("Digite Ctrl C para finalizar o programa");
+        escrever("Digite 3 para desativar um contato: ");
+        escrever("Digite 4 para listar os contatos ativos: ");
+        escrever("Digite 5 para listar todos os contatos: ");
+        escrever("Pressione Ctrl C para finalizar o programa");
 
         string operador = resposta();
 
@@ -122,11 +205,15 @@ namespace TDE_AULA3_EXERC_2
         }
         else if (operador == "3")
         {
-          excluirContato();
+          desativarContato();
         }
         else if (operador == "4")
         {
-          listarContatos();
+          listarContatosAtivos();
+        }
+        else if (operador == "5")
+        {
+          listarTodosContatos();
         }
         else
         {

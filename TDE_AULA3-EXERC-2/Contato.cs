@@ -6,11 +6,14 @@ namespace TDE_AULA3_EXERC_2
     string nome;
     string numero;
 
-    public Contato(string id, string nome, string numero)
+    bool ativo = false;
+
+    public Contato(string id, string nome, string numero, bool ativo)
     {
       this.id = id;
       this.nome = nome;
       this.numero = numero;
+      this.ativo = ativo;
     }
 
     public string getNome()
@@ -33,9 +36,24 @@ namespace TDE_AULA3_EXERC_2
       this.numero = numero;
     }
 
-    public string getDescription()
+    public bool getAtivo()
+    {
+      return this.ativo;
+    }
+
+    public void setAtivo(bool ativo)
+    {
+      this.ativo = ativo;
+    }
+
+    public string getDescriptionContatosAtivos()
     {
       return "Id: " + id + " - " + nome + " -  Número: " + numero;
+    }
+
+    public string getDescriptionTodosContatos()
+    {
+      return "Id: " + id + " - " + nome + " -  Número: " + numero + " Ativado: " + ativo;
     }
   }
 }
