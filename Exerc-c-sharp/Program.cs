@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TDE_AULA3_EXERC_2
+namespace Exerc_c_sharp
 {
   class Program
   {
@@ -15,8 +15,10 @@ namespace TDE_AULA3_EXERC_2
         Console.WriteLine("Digite 1 para add um contato: ");
         Console.WriteLine("Digite 2 para editar um contato: ");
         Console.WriteLine("Digite 3 para desativar um contato: ");
-        Console.WriteLine("Digite 4 para listar os contatos ativos: ");
-        Console.WriteLine("Digite 5 para listar todos os contatos: ");
+        Console.WriteLine("Digite 4 para reativar um contato: ");
+        Console.WriteLine("Digite 5 para listar os contatos ativos: ");
+        Console.WriteLine("Digite 6 para listar os contatos inativos: ");
+        Console.WriteLine("Digite 7 para listar todos os contatos: ");
         Console.WriteLine("Pressione Ctrl C para finalizar o programa");
 
         string operador = Console.ReadLine();
@@ -35,9 +37,17 @@ namespace TDE_AULA3_EXERC_2
         }
         else if (operador == "4")
         {
-          controle.listContactsActivated();
+          controle.escolherContatoReativar();
         }
         else if (operador == "5")
+        {
+          controle.listContactsActivated();
+        }
+        else if (operador == "6")
+        {
+          controle.listContactsDesactivated();
+        }
+        else if (operador == "7")
         {
           controle.listFullContacts();
         }
@@ -47,7 +57,6 @@ namespace TDE_AULA3_EXERC_2
         }
 
       } while (sair != "99");
-
     }
   }
 }

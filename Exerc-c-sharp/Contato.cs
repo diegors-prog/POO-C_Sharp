@@ -1,4 +1,4 @@
-namespace TDE_AULA3_EXERC_2
+namespace Exerc_c_sharp
 {
   public class Contato
   {
@@ -17,6 +17,11 @@ namespace TDE_AULA3_EXERC_2
     }
 
     public string getDescriptionContatosAtivos()
+    {
+      return "Id: " + id + " - " + nome + " -  Número: " + numero;
+    }
+
+    public string getDescriptionContatosInativos()
     {
       return "Id: " + id + " - " + nome + " -  Número: " + numero;
     }
