@@ -1,0 +1,16 @@
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.exe
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.deps.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.runtimeconfig.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.runtimeconfig.dev.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\ref\Exerc-AgendaContatos.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\bin\Debug\net5.0\Exerc-AgendaContatos.pdb
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.AssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\ref\Exerc-AgendaContatos.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.pdb
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-AgendaContatos\obj\Debug\net5.0\Exerc-AgendaContatos.genruntimeconfig.cache
