@@ -14,3 +14,11 @@ C:\Users\Cliente Farol\Desktop\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.dll
 C:\Users\Cliente Farol\Desktop\Exerc-c-sharp\obj\Debug\net5.0\ref\Exerc-c-sharp.dll
 C:\Users\Cliente Farol\Desktop\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.pdb
 C:\Users\Cliente Farol\Desktop\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.genruntimeconfig.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.AssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\ref\Exerc-c-sharp.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\Exerc-c-sharp\obj\Debug\net5.0\Exerc-c-sharp.pdb

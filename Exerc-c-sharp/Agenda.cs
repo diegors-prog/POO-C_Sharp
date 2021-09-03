@@ -85,10 +85,6 @@ namespace Exerc_c_sharp
           return;
         }
       }
-      string feedBackReativar()
-      {
-
-      }
     }
 
     public void listarContatosAtivos()
