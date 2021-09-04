@@ -94,7 +94,7 @@ namespace Exerc_AgendaContatos
 
       if (contatos.Count == 0)
       {
-        Console.WriteLine("Não existem contatos ativos");
+        Console.WriteLine("Não existem contatos ativos\n");
       }
       else
       {
@@ -111,7 +111,7 @@ namespace Exerc_AgendaContatos
 
       if (contatos.Count == 0)
       {
-        Console.WriteLine("Não existem contatos desativados");
+        Console.WriteLine("Não existem contatos desativados\n");
       }
       else
       {
@@ -128,7 +128,7 @@ namespace Exerc_AgendaContatos
 
       if (contatos.Count == 0)
       {
-        Console.WriteLine("Não exitem contatos na agenda!");
+        Console.WriteLine("Não exitem contatos na agenda!\n");
       }
       else
       {
