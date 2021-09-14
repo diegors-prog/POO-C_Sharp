@@ -1,3 +1,6 @@
+using System.Runtime.CompilerServices;
+using System.Transactions;
+using System;
 using System.Collections.Generic;
 
 namespace Semi_controleCobrancas
@@ -19,11 +22,49 @@ namespace Semi_controleCobrancas
             return listaDeCobranca;    
         }
 
-        /*Add clientes*/
+        /*Add cobranças*/
 
         public void addCobranca(Cobranca cobranca)
         {
             listaDeCobranca.Add(cobranca);
+        }
+
+        /*Efetuar pagamento*/
+
+        public string efetuarPagamento(string idCobranca)
+        {
+            Cobranca cobranca = null;
+            cobranca = listaDeCobranca.Find(c => c.Id.Equals(idCobranca));
+
+
+            if(cobranca == null)
+            {
+                return "ERRO, cobrança não encontrada, verifique o id correto na lista de cobranças";
+            }
+            
+            if (cobranca.PagamentoRealizado == true)
+            {
+                return "Está cobrança já está paga!";
+            }
+
+            DateTime dataAtual = DateTime.Today;
+
+            if (dataAtual > DataVencimento)
+            {
+                double valorReajustado = cobranca.Valor * 1.1;
+                cobranca.Valor = valorReajustado;
+
+                cobranca.DataPagamento = dataAtual.ToString("d");
+                cobranca.PagamentoRealizado = true;
+
+                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
+            }else
+            {
+                cobranca.DataPagamento = DateTime.Now.ToString("dd-MM-yyyy");
+                cobranca.PagamentoRealizado = true;
+
+                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
+            }
         }
     }
 }

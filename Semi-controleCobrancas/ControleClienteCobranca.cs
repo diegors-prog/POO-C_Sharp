@@ -69,6 +69,7 @@ namespace Semi_controleCobrancas
                 }
             }
         }
+
         public void apresentarClienteEditado()
         {
             if(minhaListaCliente.tamanhoLista().Equals(0))
@@ -116,10 +117,10 @@ namespace Semi_controleCobrancas
                 string idClienteRemover = Console.ReadLine();
 
                 List<Cobranca> combrancas = minhaListaCobranca.listarCobrancas();
-                Cliente cliente = null;
-                cliente = cobrancas.Find(c => c.Cliente_.Id.Equals(idClienteRemover));
+                Cobranca cobranca = null;
+                cobranca = cobrancas.Find(c => c.Cliente_.Id.Equals(idClienteRemover));
 
-                if(cliente == null)
+                if(cobranca == null)
                 {
                     string retorno = minhaListaCliente.removerCliente(idClienteRemover);
                     Console.WriteLine(retorno);
@@ -146,40 +147,44 @@ namespace Semi_controleCobrancas
             }
             else
             {
-                string id_Cobranca = "";
-                if (minhaListaCobranca.tamanhoLista().Equals(0))
-                {
-                    id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
-                }
-                else
-                {
-                    id_Cobranca = criarIdCobranca();
-                }
-
+                id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
                 Console.WriteLine("Digite a data de emissão da cobrança ");
                 DateTime novaDataEmissao = Console.ReadLine();
                 Console.WriteLine("Digite a data de vencimento da cobrança ");
                 DateTime novaDataVencimento = Console.ReadLine();
-                Console.WriteLine("Digite a data de pagamento da cobrança ");
-                DateTime novaDataPagamento = Console.ReadLine();
                 Console.WriteLine("Digite o valor da cobrança ");
                 double novoValor = Console.ReadLine();
 
-                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, novaDataEmissao, novaDataVencimento, novaDataPagamento, novoValor, clienteDevedor));
+                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, novaDataEmissao, novaDataVencimento, novoValor, clienteDevedor));
+
+                Console.WriteLine("Cobrança cadastrada com sucesso!\n");
             }            
         }
 
-        public string criarIdCobranca()
+        public void escolherCobrancaPagamento()
         {
-            List<Cliente> cobrancas = minhaListaCobranca.listarCobrancas();
-            Cliente lastCobrancas = cobrancas.Last();
-            string idLastCobranca = lastCobrancas.Id;
-            int idInt = int.Parse(idLastCobranca);
-            idInt = idInt + 1;
-            
-            string novoId = idInt.ToString();
+            Console.WriteLine("Digite o id da cobrança em que será realizado o pagamento ");
+            apresentarListaCobrancas();
+            string idCobranca = Console.ReadLine();
 
-            return novoId;           
+            string retorno = minhaListaCobranca.efetuarPagamento(idCobranca);
+            Console.WriteLine(retorno);
+        }
+
+        public void apresentarListaCobrancas()
+        {
+            List<Cobranca> cobrancas = minhaListaCobranca.listarCobrancas();
+            if (cobrancas.Count == 0)
+            {
+                Console.WriteLine("Numero de cobranças cadastradas é igual a 0! ");
+            }
+            else
+            {
+                foreach (var item in minhaListaCobranca.listarCobrancas())
+                { 
+                    Console.WriteLine(item.getDescription());
+                }
+            }
         }
     }
 }
