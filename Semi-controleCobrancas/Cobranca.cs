@@ -26,7 +26,7 @@ namespace Semi_controleCobrancas
 
         public string getDescription()
         {
-            return "Id: " + Id + " Valor: R$ " + Valor + " Pagamento efetuado pelo cliente " + Cliente_.Nome + " / Status: " + PagamentoRealizado;
+            return "Id: " + Id + " - Valor: R$ " + Valor + " - Esta cobrança está no nome de " + Cliente_.Nome + " / Status Pagamento: " + PagamentoRealizado;
         }
     }
 }

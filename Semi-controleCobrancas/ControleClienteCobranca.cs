@@ -47,18 +47,13 @@ namespace Semi_controleCobrancas
 
             return novoId;           
         }
-        public void printLista()
-        {
-            
-            Console.WriteLine("Numero de clientes cadastrados: " + minhaListaCliente.tamanhoLista());
-        }
 
         public void apresentarListaCliente()
         {
             List<Cliente> clientes = minhaListaCliente.listarClientes();
             if (clientes.Count == 0)
             {
-                Console.WriteLine("Numero de clientes cadastrados é igual a 0! ");
+                Console.WriteLine("A lista de clientes está vazia");
             }
             else
             {
@@ -66,6 +61,7 @@ namespace Semi_controleCobrancas
                 { 
                     Console.WriteLine(item.getDescription());
                 }
+                Console.WriteLine("Numero de clientes cadastrados: " + minhaListaCliente.tamanhoLista());
             }
         }
 
@@ -73,7 +69,7 @@ namespace Semi_controleCobrancas
         {
             if(minhaListaCliente.tamanhoLista().Equals(0))
             {
-                Console.WriteLine("Lista vazia, para poder editar e necessario \n possuir clientes cadastrados");
+                Console.WriteLine("Lista vazia, para poder editar e necessario possuir clientes cadastrados");
             }
             else
             {
@@ -107,7 +103,7 @@ namespace Semi_controleCobrancas
         {   
             if(minhaListaCliente.tamanhoLista().Equals(0))
             {
-                Console.WriteLine("Lista vazia, para poder remover e necessario \n possuir clientes cadastrados");
+                Console.WriteLine("Lista vazia, para poder remover e necessario possuir clientes cadastrados");
             }
             else
             {
@@ -132,44 +128,55 @@ namespace Semi_controleCobrancas
 
         public void criarCobranca()
         {
-            Console.WriteLine("Escolha o id do cliente que recebera essa cobrança: ");
-            apresentarListaCliente();
-            string idCliente = Console.ReadLine();
-            List<Cliente> clientes = minhaListaCliente.listarClientes();
-            Cliente clienteDevedor = null;
-            clienteDevedor = clientes.Find(c => c.Id.Equals(idCliente));
-            if(clienteDevedor == null)
+            if (minhaListaCliente.tamanhoLista().Equals(0))
             {
-                Console.WriteLine("ERRO, cliente inexistente, verifique o id correto na lista de clientes");
+                Console.WriteLine("Lista vazia, para poder adicionar uma cobrança é necessário possuir clientes cadastrados.");
+            }else
+            {
+                Console.WriteLine("Escolha o id do cliente que recebera essa cobrança: ");
+                apresentarListaCliente();
+                string idCliente = Console.ReadLine();
+                List<Cliente> clientes = minhaListaCliente.listarClientes();
+                Cliente clienteDevedor = null;
+                clienteDevedor = clientes.Find(c => c.Id.Equals(idCliente));
+                if(clienteDevedor == null)
+                {
+                    Console.WriteLine("ERRO, cliente inexistente, verifique o id correto na lista de clientes");
+                }
+                else
+                {
+                    string id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
+                    Console.WriteLine("Digite a data de emissão da cobrança ");
+                    string novaDataEmissao = Console.ReadLine();
+                    DateTime dataEmissao = Convert.ToDateTime(novaDataEmissao);
+                    Console.WriteLine("Digite a data de vencimento da cobrança ");
+                    string novaDataVencimento = Console.ReadLine();
+                    DateTime dataVencimento = Convert.ToDateTime(novaDataVencimento);
+                    Console.WriteLine("Digite o valor da cobrança ");
+                    string novoValor = Console.ReadLine();
+                    double valorCobrado = Convert.ToDouble(novoValor);
+
+                    minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, dataEmissao, dataVencimento, valorCobrado, clienteDevedor));
+
+                    Console.WriteLine("Cobrança cadastrada com sucesso!\n");
+                }            
             }
-             else
-            {
-                string id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
-                Console.WriteLine("Digite a data de emissão da cobrança ");
-                string novaDataEmissao = Console.ReadLine();
-                DateTime dataEmissao = Convert.ToDateTime(novaDataEmissao);
-                Console.WriteLine("Digite a data de vencimento da cobrança ");
-                string novaDataVencimento = Console.ReadLine();
-                DateTime dataVencimento = Convert.ToDateTime(novaDataVencimento);
-                Console.WriteLine("Digite o valor da cobrança ");
-                string novoValor = Console.ReadLine();
-                double valorCobrado = Convert.ToDouble(novoValor);
-
-                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, dataEmissao, dataVencimento, valorCobrado, clienteDevedor));
-
-                Console.WriteLine("Cobrança cadastrada com sucesso!\n");
-            }            
-
         }
 
         public void escolherCobrancaPagamento()
         {
-            Console.WriteLine("Digite o id da cobrança em que será realizado o pagamento ");
-            apresentarListaCobrancas();
-            string idCobranca = Console.ReadLine();
+            if (minhaListaCliente.tamanhoLista().Equals(0))
+            {
+                Console.WriteLine("Lista vazia, para poder efetuar um pagamento é necessário possuir clientes e cobranças cadastrados.");
+            }else
+            {
+                Console.WriteLine("Digite o id da cobrança em que será realizado o pagamento ");
+                apresentarListaCobrancas();
+                string idCobranca = Console.ReadLine();
 
-            string retorno = minhaListaCobranca.efetuarPagamento(idCobranca);
-            Console.WriteLine(retorno);
+                string retorno = minhaListaCobranca.efetuarPagamento(idCobranca);
+                Console.WriteLine(retorno);
+            }    
         }
 
         public void apresentarListaCobrancas()
@@ -177,7 +184,7 @@ namespace Semi_controleCobrancas
             List<Cobranca> cobrancas = minhaListaCobranca.listarCobrancas();
             if (cobrancas.Count == 0)
             {
-                Console.WriteLine("Numero de cobranças cadastradas é igual a 0! ");
+                Console.WriteLine("A lista de cobranças está vazia");
             }
             else
             {

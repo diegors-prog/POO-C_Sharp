@@ -31,6 +31,7 @@ namespace Semi_controleCobrancas
         {
             Cliente clienteEditar = null;
             clienteEditar = listaDeCliente.Find(c => c.Id.Equals(idCliente));
+            
             if(clienteEditar == null)
             {
                 return "ERRO cliente enexistente!";

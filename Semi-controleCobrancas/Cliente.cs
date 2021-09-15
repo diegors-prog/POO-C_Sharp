@@ -20,8 +20,7 @@ namespace Semi_controleCobrancas
 
         public string getDescription()
         {
-            return "Id: " + Id + "\n Nome: " + Nome + "\n Telefone: " +Telefone+ "\n CPF: " + Cpf +
-            "\n Endereço: " + Endereco;
+            return "Id: " + Id + " - Nome: " + Nome + " - Telefone: " + Telefone;
         }
     }
 }

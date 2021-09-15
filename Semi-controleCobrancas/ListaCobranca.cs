@@ -57,7 +57,7 @@ namespace Semi_controleCobrancas
                 cobranca.DataPagamento = dataAtual.ToString("d");
                 cobranca.PagamentoRealizado = true;
 
-                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
+                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", com valor reajustado de R$ " + cobranca.Valor + ", por causa do vencimento.";
             }else
             {
                 cobranca.DataPagamento = DateTime.Now.ToString("dd-MM-yyyy");
