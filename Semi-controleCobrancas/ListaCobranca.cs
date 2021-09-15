@@ -47,24 +47,12 @@ namespace Semi_controleCobrancas
                 return "Está cobrança já está paga!";
             }
 
-            DateTime dataAtual = DateTime.Today;
+            
+            cobranca.DataPagamento = DateTime.Now.ToString("dd-MM-yyyy");
+            cobranca.PagamentoRealizado = true;
 
-            if (dataAtual > DataVencimento)
-            {
-                double valorReajustado = cobranca.Valor * 1.1;
-                cobranca.Valor = valorReajustado;
-
-                cobranca.DataPagamento = dataAtual.ToString("d");
-                cobranca.PagamentoRealizado = true;
-
-                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
-            }else
-            {
-                cobranca.DataPagamento = DateTime.Now.ToString("dd-MM-yyyy");
-                cobranca.PagamentoRealizado = true;
-
-                return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
-            }
+            return "Pagamento realizado com sucesso na data de " + cobranca.DataPagamento + ", no valor de R$ " + cobranca.Valor;
+            
         }
     }
 }

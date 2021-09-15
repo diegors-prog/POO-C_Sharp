@@ -26,7 +26,7 @@ namespace Semi_controleCobrancas
 
         public string getDescription()
         {
-            return "Id cobrança: " + Id + " Valor: R$ " + Valor + "Pagamento efetuado pelo cliente " + Clinte.Nome + " ? " + PagamentoRealizado;
+            return "Id cobrança: " + Id + " Valor: R$ " + Valor + "Pagamento efetuado pelo cliente " + " ? " + PagamentoRealizado;
         }
     }
 }

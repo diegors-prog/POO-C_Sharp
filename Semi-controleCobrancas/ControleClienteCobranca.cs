@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -116,7 +115,7 @@ namespace Semi_controleCobrancas
                 apresentarListaCliente();
                 string idClienteRemover = Console.ReadLine();
 
-                List<Cobranca> combrancas = minhaListaCobranca.listarCobrancas();
+                List<Cobranca> cobrancas = minhaListaCobranca.listarCobrancas();
                 Cobranca cobranca = null;
                 cobranca = cobrancas.Find(c => c.Cliente_.Id.Equals(idClienteRemover));
 
@@ -133,32 +132,34 @@ namespace Semi_controleCobrancas
 
         public void criarCobranca()
         {
-            Console.WriteLine("Escolha o cliente associado a está cobrança pelo id ");
+            Console.WriteLine("Escolha o id do cliente que recebera essa cobrança: ");
             apresentarListaCliente();
             string idCliente = Console.ReadLine();
-
             List<Cliente> clientes = minhaListaCliente.listarClientes();
             Cliente clienteDevedor = null;
             clienteDevedor = clientes.Find(c => c.Id.Equals(idCliente));
-            
             if(clienteDevedor == null)
             {
                 Console.WriteLine("ERRO, cliente inexistente, verifique o id correto na lista de clientes");
             }
-            else
+             else
             {
-                id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
+                string id_Cobranca = (minhaListaCobranca.tamanhoLista() + 1).ToString();
                 Console.WriteLine("Digite a data de emissão da cobrança ");
-                DateTime novaDataEmissao = Console.ReadLine();
+                string novaDataEmissao = Console.ReadLine();
+                DateTime dataEmissao = Convert.ToDateTime(novaDataEmissao);
                 Console.WriteLine("Digite a data de vencimento da cobrança ");
-                DateTime novaDataVencimento = Console.ReadLine();
+                string novaDataVencimento = Console.ReadLine();
+                DateTime dataVencimento = Convert.ToDateTime(novaDataVencimento);
                 Console.WriteLine("Digite o valor da cobrança ");
-                double novoValor = Console.ReadLine();
+                string novoValor = Console.ReadLine();
+                double valorCobrado = Convert.ToDouble(novoValor);
 
-                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, novaDataEmissao, novaDataVencimento, novoValor, clienteDevedor));
+                minhaListaCobranca.addCobranca(new Cobranca(id_Cobranca, dataEmissao, dataVencimento, valorCobrado, clienteDevedor));
 
                 Console.WriteLine("Cobrança cadastrada com sucesso!\n");
             }            
+
         }
 
         public void escolherCobrancaPagamento()
