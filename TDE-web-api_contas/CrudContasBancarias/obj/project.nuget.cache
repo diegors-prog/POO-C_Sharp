@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tR+dDb4oLcg49StOf0g+lQxkrhsbEG5ds31BIFZ6hidwMSOmCQZrE3vRQ/vsCL0P8GKfLDhKUaO2nOSu5p4HtA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Cliente Farol\\Documents\\Repositórios locais\\Ulbra\\POO-C#\\POO-C_Sharp\\TDE-web-api_contas\\CrudContasBancarias\\CrudContasBancarias.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Cliente Farol\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
