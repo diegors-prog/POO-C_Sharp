@@ -40,6 +40,8 @@ namespace CrudContasBancarias.Controllers
     public IActionResult Post([FromBody] Saque saque)
     {
       double saldo = _repository.getSaldo();
+      double saldoAtual = saldo - (saque.Valor + _repository.Tarifa);
+
       if (saldo == 0 || saldo < saque.Valor)
       {
         return Ok(new
@@ -53,7 +55,7 @@ namespace CrudContasBancarias.Controllers
       {
         message = "Saque realizado com sucesso!",
         codeHttp = 200,
-        saldo = saldo
+        saldo = saldoAtual
       });
     }
   }
