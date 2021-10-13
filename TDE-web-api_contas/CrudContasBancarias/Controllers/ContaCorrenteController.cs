@@ -21,8 +21,7 @@ namespace CrudContasBancarias.Controllers
       });
     }
 
-    [HttpPost]
-
+    [HttpPost("deposito")]
     public IActionResult Post([FromBody] Deposito deposito)
     {
       _repository.depositar(deposito.Valor);
@@ -35,8 +34,7 @@ namespace CrudContasBancarias.Controllers
       });
     }
 
-    [HttpPost]
-
+    [HttpPost("saque")]
     public IActionResult Post([FromBody] Saque saque)
     {
       double saldo = _repository.getSaldo();
