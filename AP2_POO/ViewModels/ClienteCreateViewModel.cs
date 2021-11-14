@@ -1,3 +1,5 @@
+using System;
+
 namespace AP2_POO.ViewModels
 {
   public class ClienteCreateViewModel

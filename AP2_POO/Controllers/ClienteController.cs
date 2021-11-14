@@ -40,7 +40,16 @@ namespace AP2_POO.Controllers
     public IActionResult Post([FromBody] ClienteCreateViewModel model)
     {
       if (!ModelState.IsValid) return BadRequest();
-      clientes.Save(model);
+
+      var newCliente = new Cliente
+      {
+        Email = model.Email,
+        Nome = model.Nome,
+        Fone = model.Fone,
+        DataNasc = model.DataNasc
+      };
+
+      clientes.Save(newCliente);
       return Ok(new
       {
         message = "Cliente " + model.Nome + " foi adicionado com sucesso!"

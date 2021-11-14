@@ -48,7 +48,7 @@ namespace AP2_POO.Controllers
         KwGasto = model.KwGasto,
         ValorPagar = model.ValorPagar,
         MediaConsumo = resulMedia,
-        Cliente.Id = model.ClienteId
+        Cliente = model.Cliente
       };
 
       try

@@ -10,7 +10,7 @@ namespace AP2_POO.Repositories
   public class ClienteRepository : IClienteRepository
   {
     private AppDbContext context;
-    public ContaRepository(AppDbContext context)
+    public ClienteRepository(AppDbContext context)
     {
       this.context = context;
     }
