@@ -1,0 +1,48 @@
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\appsettings.Development.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\appsettings.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.exe
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.deps.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.runtimeconfig.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.runtimeconfig.dev.json
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\ref\AP2_POO.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\AP2_POO.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Humanizer.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Npgsql.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.csproj.AssemblyReference.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.AssemblyInfoInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.AssemblyInfo.cs
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.csproj.CoreCompileInputs.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.MvcApplicationPartsAssemblyInfo.cs
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.MvcApplicationPartsAssemblyInfo.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\staticwebassets\AP2_POO.StaticWebAssets.Manifest.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\staticwebassets\AP2_POO.StaticWebAssets.xml
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\scopedcss\bundle\AP2_POO.styles.css
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.RazorTargetAssemblyInfo.cache
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.csproj.CopyComplete
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\ref\AP2_POO.dll
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.pdb
+D:\Documents\Desktop\PROJETOS POO\Orienta-o_Objetos_C-\AP2_POO\obj\Debug\net5.0\AP2_POO.genruntimeconfig.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.AssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\ref\AP2_POO.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AP2_POO\obj\Debug\net5.0\AP2_POO.pdb

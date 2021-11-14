@@ -112,7 +112,8 @@ namespace MeuTodo.Controllers
         await context.SaveChangesAsync();
         return Ok(new
         {
-          message = "Todo deletado com sucesso!"
+          message = "Todo deletado com sucesso!",
+          id = id
         });
       }
       catch (Exception e)
