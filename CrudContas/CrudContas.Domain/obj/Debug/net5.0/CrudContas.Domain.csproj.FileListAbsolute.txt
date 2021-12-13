@@ -1,0 +1,12 @@
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\bin\Debug\net5.0\CrudContas.Domain.deps.json
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\bin\Debug\net5.0\CrudContas.Domain.dll
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\bin\Debug\net5.0\ref\CrudContas.Domain.dll
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\bin\Debug\net5.0\CrudContas.Domain.pdb
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.AssemblyInfo.cs
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.dll
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\ref\CrudContas.Domain.dll
+C:\Users\Cliente Farol\Desktop\CrudContas\CrudContas.Domain\obj\Debug\net5.0\CrudContas.Domain.pdb

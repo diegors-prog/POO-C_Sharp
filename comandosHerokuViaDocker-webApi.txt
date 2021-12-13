@@ -1,0 +1,9 @@
+Através de um container docker subi uma aplicação WebApi em .Net para o Heroku.
+
+heroku login // Logar no heroku através da CLI do heroku previamente instalada, pode acessar pelo terminal!
+
+heroku container:login // Depois de estar logado, é necessário logar um container
+
+heroku container:push web -a conta-de-luz // sempre adicionar após a flag o nome do banco la no heroku
+
+heroku container:release web -a conta-de-luz // sempre adicionar após a flag o nome do banco la no heroku

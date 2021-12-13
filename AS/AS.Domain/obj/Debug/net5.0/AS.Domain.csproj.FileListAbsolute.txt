@@ -1,0 +1,12 @@
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\bin\Debug\net5.0\AS.Domain.deps.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\bin\Debug\net5.0\AS.Domain.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\bin\Debug\net5.0\ref\AS.Domain.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\bin\Debug\net5.0\AS.Domain.pdb
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.AssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\ref\AS.Domain.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Ulbra\POO-C#\POO-C_Sharp\AS\AS.Domain\obj\Debug\net5.0\AS.Domain.pdb
