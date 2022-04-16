@@ -1,0 +1,64 @@
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.exe
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.deps.json
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.runtimeconfig.json
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.runtimeconfig.dev.json
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\ref\Aula06_camadasElistas.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.pdb
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.AssemblyReference.cache
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.AssemblyInfoInputs.cache
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.AssemblyInfo.cs
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.CoreCompileInputs.cache
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.CopyComplete
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\ref\Aula06_camadasElistas.dll
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.pdb
+C:\Users\Emanoel\OneDrive\Documentos\ulbra\POO\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.genruntimeconfig.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.exe
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.deps.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.runtimeconfig.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.runtimeconfig.dev.json
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\ref\Aula06_camadasElistas.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Aula06_camadasElistas.pdb
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Logging.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Options.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.AssemblyReference.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.AssemblyInfoInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.AssemblyInfo.cs
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.CoreCompileInputs.cache
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.csproj.CopyComplete
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\ref\Aula06_camadasElistas.dll
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.pdb
+C:\Users\Cliente Farol\Documents\Repositórios locais\Aula06_camadasElistas\obj\Debug\net5.0\Aula06_camadasElistas.genruntimeconfig.cache
